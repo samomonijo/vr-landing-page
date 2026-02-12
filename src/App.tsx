@@ -1,3 +1,5 @@
+import Logo from "./assets/logo.png";
+
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import FeatureSection from "./components/FeatureSection";
@@ -9,6 +11,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
+      <link rel="icon" type="image/svg+xml" href={Logo} />
       <Navbar />
 
       <div className="max-w-7xl mx-auto px-5 lg:px-20">
